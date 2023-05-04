@@ -1,0 +1,1 @@
+docker run -it -d --name=TradeStatistics trade-statistics
