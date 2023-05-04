@@ -1,6 +1,6 @@
 # Trade Statistics
 
-* Trade Statistics is a Java application that calculates trade statistics based on JSON input data. It was developed as part of a SmartPulse internship program.
+* Trade Statistics is a Java application that calculates trade statistics based on JSON input data.
 
 ## Installation and Usage
 
