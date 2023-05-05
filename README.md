@@ -31,13 +31,13 @@ git clone https://github.com/ecenazg/TradeStatistics.git
 ```bash
 cd TradeStatistics
 ```
-3. To run the application, execute the following command:
-```bash
-java -jar ./target/TradeStatistics-1.0-SNAPSHOT-jar-with-dependencies.jar [input-filepath] [output-filepath]
-```
-> Input-filepath is the path to the input JSON file.
 
-> Output-filepath is the desired path for the output file.
+## Running the App in an IDE
+
+If you want to run the TradeStatistics application in an IDE, follow these steps:
+
+1. Open the Main.java file located at src\main\java\io\smartpulse\internship.
+2. Run the Main.java file in your IDE.
 
 ## Running the App with Docker
 
@@ -58,7 +58,7 @@ sh run.sh
 ```
 - This command will start a Docker container named "TradeStatistics" based on the "trade-statistics" Docker image that you just built.
 
-6. You can now access the TradeStatistics application by opening a web browser and navigating to http://localhost:8080.
+6. You can now access the TradeStatistics application by clicking on the related image.
 > Note: The TradeStatistics application may take a few seconds to start up initially, so if you do not see the application immediately, wait a few moments and try again.
 7. When you are finished using the TradeStatistics application, you can stop the Docker container using the following command:
 ```bash
@@ -72,7 +72,10 @@ docker rm TradeStatistics
 ```
 - This command will remove the "TradeStatistics" container.
 
-#### Code Overview
+### Code Overview
 
 * The Trade Statistics application uses Java 19 and the Connection class is implemented as a singleton. The dates can be modified in the main/resource/config.properties file, which is read as a parameter. Alternatively, you can also provide the dates as input parameters.
 
+* Lombok Library
+
+The Lombok library was used in this project to reduce boilerplate code. The Contract class contains the annotations @Data and @AllArgsConstructor, which automatically generate getter/setter methods and constructors for all fields in the class. 
