@@ -36,7 +36,7 @@ cd TradeStatistics
 
 If you want to run the TradeStatistics application in an IDE, follow these steps:
 
-1. Open the Main.java file located at src\main\java\io\smartpulse\internship.
+1. Open the Main.java file located at src/main/java/io/smartpulse/internship/Main.java.
 2. Run the Main.java file in your IDE.
 
 ## Running the App with Docker
